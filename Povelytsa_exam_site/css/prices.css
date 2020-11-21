@@ -46,7 +46,6 @@ body {
     color: #d1d1d1;
     padding: 16px;
     text-transform: uppercase;
-
 }
 
 a {
@@ -68,7 +67,6 @@ a {
 .text_menu h2 {
     font-size: 28px;
     text-align: center;
-
 }
 
 .text_menu h1 {
@@ -78,7 +76,6 @@ a {
 }
 
 .form-group {
-
     margin-bottom: 15px;
 }
 
@@ -96,7 +93,6 @@ a {
 
 .send:hover {
     background-color: #222222;
-
 }
 
 .row {
@@ -116,7 +112,6 @@ a {
     margin-top: 15px;
     height: 500px;
     width: 900px;
-
     border-top: 1px solid black;
 }
 
@@ -151,10 +146,8 @@ a {
 .social-icons li img {
     width: 20px;
     height: 20px;
-
 }
 
-/* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
 @media (max-width: 600px) {
     .row {
         display: flex;

@@ -63,10 +63,6 @@ a {
 
 }
 
-
-
-
-
 .row {
     display: flex;
     justify-content: center;
@@ -84,11 +80,8 @@ a {
     margin-top: 15px;
     height: 300px;
     width: 900px;
-
     border-top: 1px solid black;
 }
-
-
 
 .footer {
     display: flex;
@@ -98,7 +91,6 @@ a {
     padding: 10px;
     text-align: center;
 }
-
 
 .social-icons {
     display: flex;
@@ -124,8 +116,6 @@ a {
 
 }
 
-
-/* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
 @media (max-width: 600px) {
     .row {
         display: flex;
@@ -138,7 +128,6 @@ a {
     .text_menu {
         font-size: 9px;
         color: rgba(0, 0, 0, 0.397);
-
     }
 
     .column img {

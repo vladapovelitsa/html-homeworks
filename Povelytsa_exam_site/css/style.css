@@ -82,7 +82,6 @@ a {
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
-
     margin-bottom: 25px;
 }
 
@@ -91,7 +90,6 @@ a {
     display: flex;
     justify-content: center;
     align-items: center;
-
     margin-bottom: 45px;
     padding: 25px;
     padding-top: 15px;
@@ -100,7 +98,6 @@ a {
 }
 
 .column :hover {
-
     opacity: 90%;
     translate: 3s;
 }
@@ -113,7 +110,6 @@ a {
     padding: 10px;
     text-align: center;
 }
-
 
 .social-icons {
     display: flex;
@@ -143,7 +139,6 @@ a {
     display: inline-block;
     margin: auto;
     width: 40%;
-
     background: #FFF;
     padding: 10px 20px;
 
@@ -153,7 +148,6 @@ a {
 
     color: #676767;
     width: 160px;
-
     margin-bottom: 20px;
     border-bottom: 1px solid #CCC;
     padding: 5px 9px;
@@ -183,14 +177,12 @@ a {
 .send {
     display: block;
     color: #FFFFFF;
-
     margin: auto;
     cursor: pointer;
     border-radius: 10px;
     padding: 5px 11px;
     font-size: 1.2em;
     border: solid 1px #F9F9F9;
-
     background: #2e2e2e;
     width: 110px;
     margin-bottom: 20px;
@@ -200,7 +192,6 @@ a {
     background: #222222;
 }
 
-/* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
 @media (max-width: 600px) {
     .row {
         display: flex;
