@@ -1,0 +1,163 @@
+@font-face {
+    font-family: Montserrat;
+    src: url(../fonts/Montserrat/Montserrat-Medium.ttf);
+}
+
+html {
+    font-family: Montserrat, sans-serif;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin: 0;
+}
+
+.header {
+    display: flex;
+    text-align: center;
+    width: 100%;
+    margin-top: 45px;
+}
+
+.header img {
+    width: 100%;
+}
+
+.header h1 {
+    position: absolute;
+    top: 150px;
+    left: 160px;
+    font-size: 38px;
+    font-weight: bolder;
+    color: rgb(244, 255, 184);
+}
+
+.menu {
+    display: flex;
+    justify-content: flex-end;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.menu-element {
+    color: #d1d1d1;
+    padding: 16px;
+    text-transform: uppercase;
+    font-weight: lighter;
+}
+
+a {
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.397);
+}
+
+.text_menu {
+    font-size: medium;
+    color: rgba(0, 0, 0, 0.397);
+
+    padding-left: 55px;
+    padding-right: 55px;
+    font-weight: lighter;
+    font-size: 16px;
+}
+
+.row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-top: 1px solid black;
+    margin-top: 35px;
+}
+
+.column {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 25px;
+    padding: 15px;
+    padding-top: 5px;
+    margin-top: 5px;
+    height: 500px;
+    width: 900px;
+}
+
+.footer {
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+    border-top: 1px solid black;
+    padding: 10px;
+    text-align: center;
+}
+
+.social-icons {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    margin-left: -40px;
+}
+
+.social-icons li {
+    margin-left: 15px;
+    list-style-type: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+}
+
+.social-icons li a {
+    border-bottom: none;
+}
+
+.social-icons li img {
+    width: 20px;
+    height: 20px;
+}
+
+@media (max-width: 600px) {
+    .row {
+        display: flex;
+        justify-content: center;
+        margin: 0;
+        margin-top: 15px;
+        padding: 0;
+        flex-direction: column;
+        border-top: 1px solid black;
+    }
+
+    .text_menu {
+        font-size: 9px;
+        color: rgba(0, 0, 0, 0.397);
+
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .column img {
+        width: 55%;
+    }
+
+    .column {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 35px;
+        height: 200px;
+        width: 300px;
+        margin-top: 15px;
+    }
+
+    .header h1 {
+        position: absolute;
+        top: 60px;
+        left: 60px;
+        font-weight: bolder;
+        font-size: medium;
+    }
+
+
+
+}
